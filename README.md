@@ -15,6 +15,15 @@ Bennie is a modular Python package designed to detect various "dangling" grammat
 ## Installation
 
 ```bash
+# Install from PyPI
+pip install bennie
+
+# Install the required spaCy language model
+python -m spacy download en_core_web_sm
+```
+
+**Development Installation:**
+```bash
 # Clone the repository
 git clone https://github.com/willwillis/bennie.git
 cd bennie
@@ -24,6 +33,9 @@ uv sync
 
 # Or install with pip
 pip install -e .
+
+# Install the spaCy model
+python -m spacy download en_core_web_sm
 ```
 
 ## Quick Start

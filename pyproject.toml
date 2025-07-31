@@ -1,6 +1,6 @@
 [project]
 name = "bennie"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="Will Willis", email="will.willis@gmail.com" },
 ]
@@ -19,7 +19,6 @@ classifiers = [
 ]
 keywords = ["grammar", "nlp", "english", "preposition", "linter"]
 dependencies = [
-    "en-core-web-sm",
     "spacy>=3.8.7",
 ]
 
