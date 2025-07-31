@@ -76,7 +76,7 @@ for text in test_cases:
 
 ## Testing
 
-Run the test suite to see Bennie in action:
+Run the test suite to see Bennie in action. This assumes you ran the 'Development Installation' above.
 
 ```bash
 uv run python run_tests.py
@@ -105,7 +105,7 @@ bennie/
 
 ## Technical Details
 
-Bennie uses spaCy's `en_core_web_sm` model for natural language processing. The detection algorithm identifies prepositions (POS tag "ADP") that appear at the end of sentences or clauses without a clear object.
+Bennie uses spaCy's `en_core_web_sm` model for natural language processing. The detection algorithm identifies prepositions (POS tag "ADP") that appear at the end of sentences or clauses without a clear object. 
 
 ## Contributing
 
@@ -113,7 +113,7 @@ Got a grammatical construct you'd like Bennie to help identify? Contributions ar
 
 ## A Note on Prescriptivism vs. Descriptivism
 
-While some grammar rules are more guidelines than absolute laws, this tool exists to help you write with intention. Sometimes ending with a preposition is exactly what you want to do - and that's something this tool won't argue with.
+While some grammar rules are more guidelines than absolute laws, this tool exists to help you write with intention. Sometimes ending with a preposition is exactly what you want to do - and that's something this tool won't argue with. ( <-- you see what I did there, right? )
 
 ---
 
