@@ -2,7 +2,7 @@
 name = "bennie"
 version = "1.0.2"
 authors = [
-  { name="Will Willis", email="will.willis@gmail.com" },
+  { name="Will Willis" },
 ]
 description = "A Python module for detecting dangling prepositions and other grammatical constructs."
 readme = "README.md"
