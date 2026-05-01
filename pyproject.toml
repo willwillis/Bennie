@@ -11,7 +11,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "Intended Audience :: Education",
     "Topic :: Text Processing :: Linguistic",
@@ -19,7 +19,9 @@ classifiers = [
 ]
 keywords = ["grammar", "nlp", "english", "preposition", "linter"]
 dependencies = [
+    "en-core-web-sm>=3.8.0",
     "spacy>=3.8.7",
+    "typer>=0.25.1",
 ]
 
 [build-system]
@@ -32,8 +34,12 @@ en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/dow
 [dependency-groups]
 dev = [
     "build>=1.2.2.post1",
+    "pytest>=8.0.0",
     "twine>=6.1.0",
 ]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
 
 [project.urls]
 "Homepage" = "https://github.com/willwillis/bennie"
